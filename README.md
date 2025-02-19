@@ -25,3 +25,25 @@ The **Capitol Framework** is a conceptual framework inspired by "Data Candor," a
 * **Transparent Caveats:**  Explicitly outlining known limitations, potential biases, and inappropriate use cases to promote responsible data application.
 * **Trustworthy Provenance:**  Ensuring transparency in the data review process and sources, enhancing user trust and understanding of data quality.
 * **Community Vibes:**  Capturing qualitative and contextual information that provides a broader understanding of the dataset's relevance, impact, and unique characteristics.
+
+## Synopsis of Capitol Framework Categories
+
+The Capitol Framework categories are structured to provide a comprehensive yet user-friendly evaluation of geospatial datasets, embodying the principles of Data Candor. They can be broadly grouped into areas focusing on:
+
+* **Understanding Dataset Context and Provenance:** Categories like `review_method`, `changelog`, `breaking_changes`, `support_status`, `vibes`, `target_audience`, `derived_datasets`, `linked_datasets`, and `competitor_datasets` aim to offer a transparent understanding of the dataset's origins, evolution, community perception, and intended audience. This helps users contextualize the data and assess its relevance and trustworthiness.
+
+* **Guiding Effective and Responsible Application:** Categories such as `suggested_uses`, `application_limitations`, `technical_expertise_level`, `accessibility_providers`, `carbon_energy_cost`, `teaching_resources`, `community_resources`, `example_apps`, `example_art`, `example_games_interactive_art`, `api_function_examples`, and `key_instructions` are designed to empower users to apply the data effectively and responsibly. They provide candid examples of uses, highlight limitations and potential biases, offer guidance on technical requirements, and point to helpful resources and examples for practical application.
+
+Together, these categories move beyond basic technical metadata, encouraging a holistic and honest evaluation of geospatial datasets. They aim to bridge the "Evaluability Gap" by providing users with the critical information needed to confidently assess data fitness for purpose and utilize it effectively and ethically.
+
+## Contributing
+
+We welcome contributions to the Capitol Framework! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+The Capitol Framework is an initiative by [Capitol Collective](https://capitol-collective.org/) and is inspired by discussions and insights from the geospatial data community.
