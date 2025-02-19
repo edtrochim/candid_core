@@ -1,12 +1,10 @@
-# capitol_framework
- A conceptual framework for enhancing geospatial data catalogs with Data Candor: honesty, transparency, and user-centric evaluation
+# Capitol Framework
 
-# Capitol Framework: Enhancing Geospatial Data Catalogs with Data Candor
+**A conceptual framework to enhance geospatial catalogs with "Data Candor" - honesty, transparency, and user-centric evaluation.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**A conceptual framework to enhance geospatial data catalogs with "Data Candor" - honesty, transparency, and user-centric evaluation.**
 
 ## What is the Capitol Framework?
 
