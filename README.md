@@ -1,4 +1,4 @@
-# Capitol Framework
+# Candid Core Framework
 
 **A conceptual framework to enhance geospatial catalogs with "Data Candor" - honesty, transparency, and user-centric evaluation.**
 
@@ -6,17 +6,17 @@
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 
-## What is the Capitol Framework?
+## What is the Candid Core Framework?
 
-The **Capitol Framework** is a conceptual framework inspired by "Data Candor," as discussed in the [Capital Collective blog post "[Blog Post Title Here - Link to Blog Post Once Available]"](LINK_TO_BLOG_POST_HERE). It aims to address the **"Evaluability Gap"** in geospatial data catalogs – the challenge users face in truly understanding if a dataset is suitable for their specific needs, even when discoverability is improved.
+The **Candid Core Framework** is a conceptual framework inspired by "Data Candor," as discussed in the [Capital Collective blog post "[Blog Post Title Here - Link to Blog Post Once Available]"](LINK_TO_BLOG_POST_HERE). It aims to address the **"Evaluability Gap"** in geospatial data catalogs – the challenge users face in truly understanding if a dataset is suitable for their specific needs, even when discoverability is improved.
 
-**Think of the Capitol Framework as a set of principles and categories for honest and user-focused data evaluation.** It's rooted in the idea that building trustworthy data ecosystems requires more than just technical metadata; it demands transparency, candidness about limitations, and a focus on user understanding.
+**Think of Candid Core as a set of principles and categories for honest and user-focused data evaluation.** It's rooted in the idea that building trustworthy data ecosystems requires more than just technical metadata; it demands transparency, candidness about limitations, and a focus on user understanding.
 
-**This repository currently provides the documentation of the Capitol Framework (this README) and the framework categories defined in a CSV file ([`capitol-framework.csv`](LINK_TO_CSV_IN_REPO_HERE)).**  This CSV file outlines the categories and their descriptions, serving as a starting point for implementing the Capitol Framework in various contexts.
+**This repository currently provides the documentation of the Candid Core Framework (this README) and the framework categories defined in a CSV file ([`capitol-framework.csv`](LINK_TO_CSV_IN_REPO_HERE)).**  This CSV file outlines the categories and their descriptions, serving as a starting point for implementing the Capitol Framework in various contexts.
 
 ## Core Principles: Data Candor
 
-"Data Candor" within the Capitol Framework is built upon these core principles:
+"Data Candor" within the Candid Core Framework is built upon these core principles:
 
 * **Honest Context:** Providing transparent details about data collection, processing, and intended purpose, going beyond technical specifications.
 * **Candid Applications:**  Showcasing curated examples of effective dataset uses, drawing on community and expert knowledge to offer honest appraisals of suitability.
@@ -24,9 +24,9 @@ The **Capitol Framework** is a conceptual framework inspired by "Data Candor," a
 * **Trustworthy Provenance:**  Ensuring transparency in the data review process and sources, enhancing user trust and understanding of data quality.
 * **Community Vibes:**  Capturing qualitative and contextual information that provides a broader understanding of the dataset's relevance, impact, and unique characteristics.
 
-## Synopsis of Capitol Framework Categories
+## Synopsis of Candid Core Framework Categories
 
-The Capitol Framework categories are structured to provide a comprehensive yet user-friendly evaluation of geospatial datasets, embodying the principles of Data Candor. They can be broadly grouped into areas focusing on:
+The Candid Core categories are structured to provide a comprehensive yet user-friendly evaluation of geospatial datasets, embodying the principles of Data Candor. They can be broadly grouped into areas focusing on:
 
 * **Understanding Dataset Context and Provenance:** Categories like `review_method`, `changelog`, `breaking_changes`, `support_status`, `vibes`, `target_audience`, `derived_datasets`, `linked_datasets`, and `competitor_datasets` aim to offer a transparent understanding of the dataset's origins, evolution, community perception, and intended audience. This helps users contextualize the data and assess its relevance and trustworthiness.
 
@@ -44,4 +44,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-The Capitol Framework is an initiative by [Capitol Collective](https://capitol-collective.org/) and is inspired by discussions and insights from the geospatial data community.
+The Candid Core Framework is an initiative by [Capitol Collective](https://capitol-collective.org/) and is inspired by discussions and insights from the geospatial data community.
