@@ -8,7 +8,7 @@
 
 ## What is the Candid Core Framework?
 
-The **Candid Core Framework** is a conceptual framework inspired by "Data Candor," as discussed in the [Capital Collective blog post "[Blog Post Title Here - Link to Blog Post Once Available]"](LINK_TO_BLOG_POST_HERE). It aims to address the **"Evaluability Gap"** in geospatial data catalogs – the challenge users face in truly understanding if a dataset is suitable for their specific needs, even when discoverability is improved.
+The **Candid Core Framework** is a conceptual framework inspired by "Data Candor," as discussed in the [blog post "[Blog Post Title Here - Link to Blog Post Once Available]"](LINK_TO_BLOG_POST_HERE). It aims to address the **"Metadata Mirage"** in geospatial data catalogs – the challenge users face in truly understanding if a dataset is suitable for their specific needs, even when discoverability is improved.
 
 **Think of Candid Core as a set of principles and categories for honest and user-focused data evaluation.** It's rooted in the idea that building trustworthy data ecosystems requires more than just technical metadata; it demands transparency, candidness about limitations, and a focus on user understanding.
 
@@ -36,7 +36,7 @@ Together, these categories move beyond basic technical metadata, encouraging a h
 
 ## Contributing
 
-We welcome contributions to the Capitol Framework! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+We welcome contributions to the Candid Core Framework! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
 
 ## License
 
