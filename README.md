@@ -13,19 +13,9 @@ While we have abundant geospatial data from satellites, sensors, and models, fin
 
 The Candid Core Framework aims to bridge this gap by providing a structured approach to capture the evaluative information experienced users and data creators naturally share about datasets, making this wisdom accessible to all users.
 
-## Core Principles: Data Candor
-
-"Data Candor" within the Candid Core Framework is built upon these core principles:
-
-* **Honest Context:** Transparent details about data collection, processing, and intended purpose beyond technical specifications
-* **Candid Applications:** Curated examples of effective dataset uses with honest appraisals of suitability 
-* **Transparent Caveats:** Explicit outlines of limitations, biases, and inappropriate use cases
-* **Trustworthy Provenance:** Complete transparency into data review processes and sources
-* **Community Vibes:** Qualitative context about the dataset's relevance, impact, and unique characteristics
-
 ## Key Categories
 
-The Candid Core Framework organizes metadata into four main areas:
+The Candid Core Framework organizes metadata into five main areas:
 
 ### Suitability & Limitations
 - **Suitability Summary:** Concise overview of dataset strengths and weaknesses
