@@ -1,38 +1,72 @@
 # Candid Core Framework
 
-**A conceptual framework to enhance geospatial catalogs with "Data Candor" - honesty, transparency, and user-centric evaluation.**
+**A conceptual framework to enhance geospatial catalogs with "Data Candor" - radical honesty, transparency, and user-centric evaluation.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-
 ## What is the Candid Core Framework?
 
-The **Candid Core Framework** is a conceptual framework inspired by "Data Candor," as discussed in the [blog post "[Blog Post Title Here - Link to Blog Post Once Available]"](LINK_TO_BLOG_POST_HERE). It aims to address the **"Metadata Mirage"** in geospatial data catalogs – the challenge users face in truly understanding if a dataset is suitable for their specific needs, even when discoverability is improved.
+The **Candid Core Framework** addresses a fundamental problem in geospatial data: the "**Metadata Mirage**" - when technical metadata exists but crucial context about usability, limitations, and fitness for purpose remains hidden.
 
-**Think of Candid Core as a set of principles and categories for honest and user-focused data evaluation.** It's rooted in the idea that building trustworthy data ecosystems requires more than just technical metadata; it demands transparency, candidness about limitations, and a focus on user understanding.
+While we have abundant geospatial data from satellites, sensors, and models, finding the *right* dataset for your specific needs remains challenging. Current metadata standards tell us *what* and *where* data exists, but often fail to communicate *when* and *why* we should use a particular dataset.
 
-**This repository currently provides the documentation of the Candid Core Framework (this README) and the framework categories defined in a CSV file ([`capitol-framework.csv`](LINK_TO_CSV_IN_REPO_HERE)).**  This CSV file outlines the categories and their descriptions, serving as a starting point for implementing the Capitol Framework in various contexts.
+The Candid Core Framework aims to bridge this gap by providing a structured approach to capture the evaluative information experienced users and data creators naturally share about datasets, making this wisdom accessible to all users.
 
 ## Core Principles: Data Candor
 
 "Data Candor" within the Candid Core Framework is built upon these core principles:
 
-* **Honest Context:** Providing transparent details about data collection, processing, and intended purpose, going beyond technical specifications.
-* **Candid Applications:**  Showcasing curated examples of effective dataset uses, drawing on community and expert knowledge to offer honest appraisals of suitability.
-* **Transparent Caveats:**  Explicitly outlining known limitations, potential biases, and inappropriate use cases to promote responsible data application.
-* **Trustworthy Provenance:**  Ensuring transparency in the data review process and sources, enhancing user trust and understanding of data quality.
-* **Community Vibes:**  Capturing qualitative and contextual information that provides a broader understanding of the dataset's relevance, impact, and unique characteristics.
+* **Honest Context:** Transparent details about data collection, processing, and intended purpose beyond technical specifications
+* **Candid Applications:** Curated examples of effective dataset uses with honest appraisals of suitability 
+* **Transparent Caveats:** Explicit outlines of limitations, biases, and inappropriate use cases
+* **Trustworthy Provenance:** Complete transparency into data review processes and sources
+* **Community Vibes:** Qualitative context about the dataset's relevance, impact, and unique characteristics
 
-## Synopsis of Candid Core Framework Categories
+## Key Categories
 
-The Candid Core categories are structured to provide a comprehensive yet user-friendly evaluation of geospatial datasets, embodying the principles of Data Candor. They can be broadly grouped into areas focusing on:
+The Candid Core Framework organizes metadata into four main areas:
 
-* **Understanding Dataset Context and Provenance:** Categories like `review_method`, `changelog`, `breaking_changes`, `support_status`, `vibes`, `target_audience`, `derived_datasets`, `linked_datasets`, and `competitor_datasets` aim to offer a transparent understanding of the dataset's origins, evolution, community perception, and intended audience. This helps users contextualize the data and assess its relevance and trustworthiness.
+### Suitability & Limitations
+- **Suitability Summary:** Concise overview of dataset strengths and weaknesses
+- **Application Limitations:** Known constraints where using the dataset might lead to inaccurate results
+- **Data Quality Metrics:** Quantitative measures of accuracy and uncertainty
+- **Known Gaps / Future Work:** Recognized gaps in coverage, methodology, or validation
 
-* **Guiding Effective and Responsible Application:** Categories such as `suggested_uses`, `application_limitations`, `technical_expertise_level`, `accessibility_providers`, `carbon_energy_cost`, `teaching_resources`, `community_resources`, `example_apps`, `example_art`, `example_games_interactive_art`, `api_function_examples`, and `key_instructions` are designed to empower users to apply the data effectively and responsibly. They provide candid examples of uses, highlight limitations and potential biases, offer guidance on technical requirements, and point to helpful resources and examples for practical application.
+### Context & Definitions
+- **Key Term Definitions:** Critical terms used within the dataset and their specific meanings
+- **Methodology Summary:** Overview of algorithms, input data sources, and processing steps
+- **Ethics / Bias:** Potential ethical implications or known biases in the data
+- **Vibes / Social Context:** Informal context, cultural significance, or community ethos
 
-Together, these categories move beyond basic technical metadata, encouraging a holistic and honest evaluation of geospatial datasets. They aim to bridge the "Evaluability Gap" by providing users with the critical information needed to confidently assess data fitness for purpose and utilize it effectively and ethically.
+### Use Cases & Target Users
+- **Target Audience:** Primary intended users or groups
+- **Recommended Expertise:** Technical skill or domain knowledge needed for effective use
+- **Suggested Uses:** Recommended applications for the dataset
+- **Example Uses:** Teaching resources, community resources, applications, APIs, and creative uses
+
+### Provenance & Relationships
+- **Review Method:** Nature of quality assessment or review the dataset has undergone
+- **Candid Core Curation Method:** How the evaluative metadata was populated
+- **Related and Competitor Datasets:** Alternatives and complementary datasets
+- **Comparison Notes:** Direct comparisons to key alternatives
+
+### Lifecycle & Access
+- **Support Status:** Maintenance level and expected longevity
+- **Curation/Update Philosophy:** Approach to updates and incorporating feedback
+- **Data Access & Providers:** Available access points and ease of access
+- **User Feedback Channel:** Designated contact for reporting issues or suggesting improvements
+- **Carbon/Energy Cost:** Environmental footprint associated with the dataset
+
+## Implementation
+
+The Candid Core Framework doesn't replace existing metadata standards like STAC (SpatioTemporal Asset Catalog) but complements them with user-focused evaluative information. 
+
+While Large Language Models could help standardize these insights, the Framework emphasizes human curation and expertise to ensure accuracy, relevance, and trustworthiness.
+
+## Why It Matters
+
+Moving beyond simply connecting users to data and beginning to connect them to actionable knowledge, we can fundamentally transform how Earth observation data creates value for science and society.
 
 ## Contributing
 
@@ -44,4 +78,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-The Candid Core Framework is an initiative by [Capitol Collective](https://capitol-collective.org/) and is inspired by discussions and insights from the geospatial data community.
+The Candid Core Framework emerged from discussions at the AGU Retreat in Washington, D.C., preceding the 2024 American Geophysical Union Fall Meeting. It builds on the foundation of cloud-native geospatial data catalogs and standardized metadata to address the fundamental challenge of data evaluability.
