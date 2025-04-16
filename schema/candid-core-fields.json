@@ -1,0 +1,196 @@
+{
+  "fields": [
+    {
+      "field_name": "suitability_summary",
+      "category": "Suitability & Limitations",
+      "description": "Concise, curated summary highlighting the dataset's primary strengths and weaknesses, specifically concerning its suitability for common applications.",
+      "required": true
+    },
+    {
+      "field_name": "application_limitations",
+      "category": "Suitability & Limitations",
+      "description": "Known constraints, caveats, or inappropriate applications (\"contraindications\") for the dataset, highlighting scenarios where its use might lead to inaccurate results, misinterpretations, or where specific precautions are necessary.",
+      "required": true
+    },
+    {
+      "field_name": "data_quality_metrics",
+      "category": "Suitability & Limitations",
+      "description": "Quantitative measures of the dataset's quality, accuracy, or uncertainty, such as error statistics, validation scores, confidence intervals, or spatial/temporal maps of uncertainty.",
+      "required": true
+    },
+    {
+      "field_name": "known_gaps",
+      "category": "Suitability & Limitations",
+      "description": "Recognized gaps in the dataset's coverage, methodology, or validation, and may outline planned improvements or areas identified for future research by the creators or community.",
+      "required": true
+    },
+    {
+      "field_name": "key_term_definitions",
+      "category": "Context & Definitions",
+      "description": "Critical terms used within the dataset (e.g., \"forest,\" \"urban\") and the specific classification scheme or ontology applied.",
+      "required": true
+    },
+    {
+      "field_name": "methodology_summary",
+      "category": "Context & Definitions",
+      "description": "Summary of the specific algorithms, input data sources, processing steps, and assumptions used to generate the dataset.",
+      "required": true
+    },
+    {
+      "field_name": "ethics_bias",
+      "category": "Context & Definitions",
+      "description": "Potential ethical implications, known biases (algorithmic, sensor, sampling), fairness assessments, or privacy concerns related to the dataset's creation or potential application, acknowledging limitations beyond technical ones.",
+      "required": true
+    },
+    {
+      "field_name": "vibes_social_context",
+      "category": "Context & Definitions",
+      "description": "The informal context, cultural significance, unique \"personality,\" community ethos, or relevant historical background associated with the dataset. Elements often part of the creation process but not formal attributes.",
+      "required": false
+    },
+    {
+      "field_name": "target_audience",
+      "category": "Use Cases & Target Users",
+      "description": "Primary intended users or groups.",
+      "required": true
+    },
+    {
+      "field_name": "recommended_expertise",
+      "category": "Use Cases & Target Users",
+      "description": "The level/type of technical skill or domain knowledge recommended for effectively using the dataset.",
+      "required": true
+    },
+    {
+      "field_name": "suggested_uses",
+      "category": "Use Cases & Target Users",
+      "description": "Recommended applications for the dataset, guiding users on how the data creators or maintainers envision it being employed effectively.",
+      "required": true
+    },
+    {
+      "field_name": "key_instructions",
+      "category": "Use Cases & Target Users",
+      "description": "Critical instructions for using the dataset effectively, potentially formatted for machine interpretation.",
+      "required": true
+    },
+    {
+      "field_name": "example_teaching_resources",
+      "category": "Use Cases & Target Users",
+      "description": "Specific educational materials, tutorials, textbooks, or curricula using this dataset for teaching.",
+      "required": false
+    },
+    {
+      "field_name": "example_community_resources",
+      "category": "Use Cases & Target Users",
+      "description": "Resources developed by the user community (forums, code repositories, wikis, user groups) offering support and knowledge sharing.",
+      "required": false
+    },
+    {
+      "field_name": "example_apps",
+      "category": "Use Cases & Target Users",
+      "description": "Specific applications, particularly interactive web apps, dashboards, or software tools built using this dataset.",
+      "required": false
+    },
+    {
+      "field_name": "example_api_functions",
+      "category": "Use Cases & Target Users",
+      "description": "Specific functions, APIs, software libraries, or computational models utilizing this dataset, often for generating derived products.",
+      "required": false
+    },
+    {
+      "field_name": "example_art",
+      "category": "Use Cases & Target Users",
+      "description": "Instances where the dataset served as a basis for artistic creation or data visualization beyond purely scientific purposes.",
+      "required": false
+    },
+    {
+      "field_name": "example_games",
+      "category": "Use Cases & Target Users",
+      "description": "Examples where the dataset was incorporated into games or interactive art installations using the data directly for gameplay or exploration.",
+      "required": false
+    },
+    {
+      "field_name": "review_method",
+      "category": "Provenance & Relationships",
+      "description": "The process and nature of any quality assessment or review the dataset has undergone, clarifying the type of scrutiny applied (e.g., internal, peer review, independent validation).",
+      "required": true
+    },
+    {
+      "field_name": "candid_core_curation_method",
+      "category": "Provenance & Relationships",
+      "description": "How the Candid Core metadata fields themselves were populated.",
+      "required": true
+    },
+    {
+      "field_name": "derived_datasets",
+      "category": "Provenance & Relationships",
+      "description": "Other datasets created directly using this dataset as a primary source or input.",
+      "required": false
+    },
+    {
+      "field_name": "linked_datasets",
+      "category": "Provenance & Relationships",
+      "description": "Datasets frequently used alongside the current dataset or considered complementary for context, calibration, validation, or common workflows.",
+      "required": false
+    },
+    {
+      "field_name": "related_datasets",
+      "category": "Provenance & Relationships",
+      "description": "Datasets sharing a thematic, spatial, or temporal connection, suggesting key datasets for comparison or broader context.",
+      "required": false
+    },
+    {
+      "field_name": "competitor_datasets",
+      "category": "Provenance & Relationships",
+      "description": "Alternative datasets covering a similar scope, allowing users to identify and evaluate other potential data sources for their specific needs.",
+      "required": false
+    },
+    {
+      "field_name": "comparison_notes",
+      "category": "Provenance & Relationships",
+      "description": "Notes comparing this dataset to key alternatives, highlighting differences in methodology, scope, resolution, known discrepancies, or complementary aspects relevant to specific use cases.",
+      "required": true
+    },
+    {
+      "field_name": "support_status",
+      "category": "Lifecycle & Access",
+      "description": "Current maintenance level and expected longevity of the dataset, indicating its reliability for long-term projects (e.g., actively maintained, limited funding, deprecated).",
+      "required": true
+    },
+    {
+      "field_name": "curation_update_philosophy",
+      "category": "Lifecycle & Access",
+      "description": "The approach to maintaining and updating the dataset, including frequency, criteria for new versions, handling of user feedback, and philosophy regarding incorporating new methods or input data.",
+      "required": true
+    },
+    {
+      "field_name": "changelog",
+      "category": "Lifecycle & Access",
+      "description": "Record of significant modifications made to the dataset over time, including updates, corrections, version changes, and deprecation notices, allowing users to track its evolution.",
+      "required": true
+    },
+    {
+      "field_name": "breaking_changes",
+      "category": "Lifecycle & Access",
+      "description": "Modifications within the dataset's history (also expected to be in the Changelog) known to be incompatible with previous versions, potentially breaking existing user workflows or code.",
+      "required": true
+    },
+    {
+      "field_name": "data_access_providers",
+      "category": "Lifecycle & Access",
+      "description": "Available access points or providers for the dataset and characterizes the ease of access, including details on authentication, rate limits, download mechanisms, or formats.",
+      "required": true
+    },
+    {
+      "field_name": "user_feedback_channel",
+      "category": "Lifecycle & Access",
+      "description": "Designated channel or contact point for users to report errors, ask questions, suggest improvements, or share use cases related to the dataset.",
+      "required": true
+    },
+    {
+      "field_name": "carbon_energy_cost",
+      "category": "Lifecycle & Access",
+      "description": "Estimated environmental footprint, specifically the energy consumption or carbon emissions, associated with the production, processing, and storage of the dataset.",
+      "required": false
+    }
+  ]
+}
