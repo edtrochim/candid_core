@@ -70,3 +70,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 The Candid Core Framework emerged from discussions at the AGU Retreat in Washington, D.C., preceding the 2024 American Geophysical Union Fall Meeting. It builds on the foundation of cloud-native geospatial data catalogs and standardized metadata to address the fundamental challenge of data evaluability.
+
+Thanks to Simon Ilyushchenko, Renee Johnston, and David Schottlander of Google for their valuable insights and contributions. This work was supported by a Google Research academic research award, with support from Matthew Abraham and Sameera Ponda. 
