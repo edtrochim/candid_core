@@ -8,7 +8,7 @@
 
 ## Suitability & Limitations
 
-* **NEW: Suitability Summary**: Concise, curated summary highlighting the dataset's primary strengths and weaknesses, specifically concerning its suitability for common applications.
+* **Suitability Summary**: Concise, curated summary highlighting the dataset's primary strengths and weaknesses, specifically concerning its suitability for common applications.
 
   *Strong for global/regional trend analysis and city ranking of surface UHI. Less suitable for microscale urban planning or direct air temperature correlation without calibration. Known issues with cloud contamination in persistently overcast areas require user caution.*
 
@@ -20,21 +20,21 @@
 
   *Accuracy assessment against 100 global weather stations shows mean bias of \+0.5°C (urban warmer) and RMSE of 1.2°C; uncertainty tends to be higher in tropical regions due to cloud cover correction residuals.*
 
-* **NEW: Known Gaps / Future Work**: Recognized gaps in the dataset's coverage, methodology, or validation, and may outline planned improvements or areas identified for future research by the creators or community.
+* **Known Gaps / Future Work**: Recognized gaps in the dataset's coverage, methodology, or validation, and may outline planned improvements or areas identified for future research by the creators or community.
 
   *Current version lacks specific validation in Arctic cities and does not differentiate between daytime/nighttime UHI. Future work aims to incorporate VIIRS data for improved resolution and explore seasonal variations.*
 
 ## Context & Definitions
 
-* **NEW: Key Term Definitions**: Critical terms used within the dataset (e.g., "forest," "urban") and the specific classification scheme or ontology applied.
+* **Key Term Definitions**: Critical terms used within the dataset (e.g., "forest," "urban") and the specific classification scheme or ontology applied.
 
   *"Urban" defined by pixels with \>50% impervious surface based on ESA WorldCover 2020\. "Rural Reference" defined as non-urban pixels within a 5km buffer excluding water bodies. "Intensity" is the mean annual surface temperature difference (°C) between these zones.*
 
-* **NEW: Methodology Summary**: Summary of the specific algorithms, input data sources, processing steps, and assumptions used to generate the dataset.
+* **Methodology Summary**: Summary of the specific algorithms, input data sources, processing steps, and assumptions used to generate the dataset.
 
   *Generated using MODIS MOD11A2 LST v6, ESA WorldCover 2020 for urban extent, and a 5km buffer non-urban reference zone selection algorithm. Cloud gaps filled using temporal interpolation. Full details in linked publication \[DOI\].*
 
-* **NEW: Ethics / Bias**: Potential ethical implications, known biases (algorithmic, sensor, sampling), fairness assessments, or privacy concerns related to the dataset's creation or potential application, acknowledging limitations beyond technical ones.
+* **Ethics / Bias**: Potential ethical implications, known biases (algorithmic, sensor, sampling), fairness assessments, or privacy concerns related to the dataset's creation or potential application, acknowledging limitations beyond technical ones.
 
   *Primarily based on satellite thermal data, does not directly measure human heat exposure or account for indoor conditions. Urban extent definition may underrepresent informal settlements in some regions. Derived from publicly available remote sensing, no direct human subject data used.*
 
@@ -50,7 +50,8 @@
 
 * **Recommended Expertise**  
   The level/type of technical skill or domain knowledge recommended for effectively using the dataset.  
-  *Requires basic GIS/remote sensing data handling skills (QGIS, ArcGIS, Python, R) and understanding of urban climate concepts.*  
+  *Requires basic GIS/remote sensing data handling skills (QGIS, ArcGIS, Python, R) and understanding of urban climate concepts.*
+   
 * **Suggested Uses**: Recommended applications for the dataset, guiding users on how the data creators or maintainers envision it being employed effectively.
 
   *Assessing heat exposure risk for vulnerable populations; comparing urban planning mitigation strategy effectiveness across cities; regional climate modeling input.*
@@ -89,7 +90,7 @@
 
   *Internal consistency checks by data producers; methodology peer-reviewed as part of publication; validation against limited ground station data in 20 cities.*
 
-* **NEW: Candid Core Curation Method**: How the Candid Core metadata fields themselves were populated.
+* **Candid Core Curation Method**: How the Candid Core metadata fields themselves were populated.
 
   *Candid Core fields initially populated by the GeoClimate Lab data producers, reviewed and refined based on feedback from the GUHII-Users Google Group and two independent expert reviewers. Some contraindications are added by the community and are disputed by the dataset authors.*
 
@@ -109,7 +110,7 @@
 
   *Global Surface UHI Explorer (GSUE) by Li et al.; UHI dataset by Chakraborty & Lee.*
 
-* **NEW: Comparison Notes**: Notes comparing this dataset to key alternatives, highlighting differences in methodology, scope, resolution, known discrepancies, or complementary aspects relevant to specific use cases.
+* **Comparison Notes**: Notes comparing this dataset to key alternatives, highlighting differences in methodology, scope, resolution, known discrepancies, or complementary aspects relevant to specific use cases.
 
   *Compared to GSUE, GUHII uses a consistent rural reference definition globally but has coarser resolution. Unlike MOD11 LST, GUHII provides intensity directly, simplifying cross-city comparison but masking raw temperature values.*
 
@@ -135,7 +136,7 @@
 
   *Downloadable as GeoTIFFs via Zenodo (DOI provided, free account required); Google Earth Engine Asset ID available for cloud computation; no current API access.*
 
-* **NEW: User Feedback Channel**: Designated channel or contact point for users to report errors, ask questions, suggest improvements, or share use cases related to the dataset.
+* **User Feedback Channel**: Designated channel or contact point for users to report errors, ask questions, suggest improvements, or share use cases related to the dataset.
 
   *Please report issues via the GitHub repository issue tracker \[link\] or contact the GeoClimate Lab at \[email address\]. User forum available at \[link\].*
 
